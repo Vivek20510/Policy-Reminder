@@ -1,0 +1,102 @@
+.policy {
+    display: flex;
+  }
+  
+  .policyWrapper {
+    flex: 9;
+    padding: 20px;
+  }
+  
+  .policyTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .policyTitleUpdate {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(105, 92, 92);
+  }
+  
+  .policyTitleDelete {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .policyForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .policyPP {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .policyPP > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .policyPPIcon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(77, 134, 200);
+    cursor: pointer;
+  }
+  
+  .policyPPButton:focus {
+    outline-style: none;
+  }
+  
+  .policyForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .policyPPInput {
+    width: 30%;
+  }
+  
+  .policyForm > input {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .policySubmitButton {
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .policySubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }
+  
